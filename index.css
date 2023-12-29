@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(8, 173, 173);
+}
+.card{
+    opacity: .9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0, 0, 0, 0.801);
+    border-radius: 10px;
+    height: 250px;
+    width: 55%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.main_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.left_div{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 30%;
+/* background-color: yellow; */
+}
+.left_div h2{
+    border-left: 3px solid rgb(8, 173, 173 );
+    height: 76px;
+}
+.left_div h3{
+    color:rgb(8, 173, 173 );
+}
+.app-form input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(62, 66, 66);
+    margin-bottom: 10px;
+    color: white;
+    /* text-align: center; */
+}
+.app-form p{
+color: rgb(8, 173, 173 );
+cursor: pointer;
+}
+.app-form-button{
+    /* margin-left: 35%; */
+    background: white;
+    color: rgb(8, 173, 173 );
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#showdata{
+    color: aliceblue;
+    text-align: center;
+}
